@@ -1,16 +1,37 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --accent-color: #ff5dcb;
+  --main-bg-color: #fff1f7;
+  --main-bg-image: url(../images/cover-image-light.png);
+  --main-text-color: #353430;
+  --nav-color: #353430;
+  --nav-hover-color: rgb(50 49 45 / 0.4);
+  --main-head-color: #353430;
+  --text-bg-color: #ff8dcb;
+  --section-head-color: #353430;
+  --header-logo-color: #ffc2e6;
+  --footer-logo-color: #ffc2e6;
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+.theme-light .header__rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff5dcb;
+    --main-bg-color: #fff1f7;
+    --main-bg-image: url(../images/cover-image-light.png);
+    --main-text-color: #353430;
+    --nav-color: #353430;
+    --nav-hover-color: rgb(50 49 45 / 0.4);
+    --main-head-color: #353430;
+    --text-bg-color: #ff8dcb;
+    --section-head-color: #353430;
+    --header-logo-color: #ffc2e6;
+    --footer-logo-color: #ffc2e6;
+  }
+
+  .header__rec {
+    display: none;
+  }
 }
