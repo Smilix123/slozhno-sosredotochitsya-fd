@@ -116,8 +116,8 @@
   display: block;
   width: 25px;
   height: 25px;
-  border-inline-end: 1px solid var(--accent-color, #ff0070);
-  border-block-start: 1px solid var(--accent-color, #ff0070);
+  border-inline-end: 1px solid var(--section-head-color, #ff0070);
+  border-block-start: 1px solid var(--section-head-color, #ff0070);
 }
 
 .decorated-zone::after {
@@ -128,8 +128,8 @@
   display: block;
   width: 25px;
   height: 25px;
-  border-inline-start: 1px solid var(--accent-color, #ff0070);
-  border-block-end: 1px solid var(--accent-color, #ff0070);
+  border-inline-start: 1px solid var(--section-head-color, #ff0070);
+  border-block-end: 1px solid var(--section-head-color, #ff0070);
 }
 
 .main {
