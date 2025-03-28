@@ -9,7 +9,7 @@
 
 .title {
   color: var(--header-logo-color, #db00ff);
-  font-family: var(--main-font, "IBM Plex Mono", sans-serif, monospace);
+  font-family: var(--main-font, "IBM Plex Mono");
   font-weight: 700;
   font-size: var(
     --header-logo-size,
@@ -55,6 +55,7 @@
   text-transform: lowercase;
   background-color: transparent;
   cursor: pointer;
+  appearance: none;
 }
 
 .header__theme-menu-button:hover {
@@ -63,6 +64,7 @@
 
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--section-head-color);
+  outline: none;
 }
 
 .header__theme-menu-button_active {
