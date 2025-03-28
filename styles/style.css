@@ -49,7 +49,7 @@
   border: 1px solid transparent;
   padding: 4px 13px;
   color: var(--section-head-color, #ff0070);
-  font-family: var(--main-font, "IBM Plex Mono", sans-serif, monospace);
+  font-family: var(--main-font, "IBM Plex Mono");
   font-size: var(--main-text-size, 18px);
   line-height: 1;
   text-transform: lowercase;
